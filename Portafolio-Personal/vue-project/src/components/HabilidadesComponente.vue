@@ -1,8 +1,8 @@
 <script setup>
-import img1 from '/src/components/icons/js.svg';
-import img2 from '/src/components/icons/python.svg';
-import img3 from '/src/components/icons/html-css.svg';
-import img4 from '/src/components/icons/java.svg';
+import js from '/src/components/icons/js.svg';
+import python from '/src/components/icons/python.svg';
+import html from '/src/components/icons/html-css.svg';
+import java from '/src/components/icons/java.svg';
 
 import { ref } from 'vue';
 

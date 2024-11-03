@@ -1,6 +1,12 @@
 <script setup>const nombreapellido= "martiniano";
 import NavBar from './components/NavBar.vue';
 import DatosPersonales from './components/DatosPersonales.vue';
+import EducacionComponente from './components/EducacionComponente.vue';
+import InteresesComponente from './components/InteresesComponente.vue';
+import ProyectosComponente from './components/ProyectosComponente.vue';
+import HabilidadesComponente from './components/HabilidadesComponente.vue';
+import ExperienciaComponente from './components/ExperienciaComponente.vue';
+
 </script>
 
 <template>
