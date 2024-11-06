@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 const fechaColor = ref([]);
-/*Esta es otra forma de utilizar el arreglo, con el metodo value*/
+
 fechaColor.value = [
     {color: '#41516c'},
     {color: '#FBCA3E'},
@@ -9,7 +9,7 @@ fechaColor.value = [
     {color: '#1B5F8C'},
     {color: '#4CADAD'}
 ];
-/*Esta es la forma de utilizar el arreglo, sin el metodo value*/
+
 const educacion = ref([
     {fecha: '2024', title: 'Cursando Tecnicatura en Programacion', descripcion: 'Ingrese en la Tenicatura en Programacion', enlace:'http:www.direccion.com'},
     {fecha: '2022', title: 'Egresado en Salud', descripcion: 'Complete el secundario en la escuela Manuel Ignacio Molina', enlace:'http:www.direccion.com'}
@@ -28,9 +28,9 @@ const educacion = ref([
 </template>
 
 <style scoped>
-/* Estilos generales */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
-/* Reseteo de estilos básicos para todos los elementos y pseudo-elementos */
+
 *,
 *::before,
 *::after {

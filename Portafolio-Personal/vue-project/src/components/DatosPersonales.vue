@@ -1,13 +1,18 @@
 <script setup>
+import linkedin from "./icons/linkedin_icon.svg"
+import instagram from "./icons/instagram_icon.svg"
+import github from "./icons/github_icon.svg"
+import cv from "./icons/cv_resume_icon.svg"
+
 const title = "Martiniano Zallocco";
 const descripcion = "estudiante de la Tecnicatura en Programacion";
 const residencia = "San Rafael, Mendoza, Argentina";
 const presentacion = "Hola, bienvenido a mi portafolio de proyecto, soy un estudiante de la tecnicatura en Progamacion en la UTN.";
 const redessociales =[
-    { id: 1, name: "linkedin", src: "/src/assets/linkedin_icon.svg", url: "https://www.linkedin.com" },
-    { id: 2, name: "instagram", src: "/src/assets/instagram_icon.svg", url: "https://www.instagram.com" },
-    { id: 3, name: "github", src: "/src/assets/github_icon.svg", url: "https://github.com" },
-    { id: 4, name: "curriculum", src: "/src/assets/cv_resume_icon.svg", url: "f" },
+    { id: 1, name: "linkedin", src: linkedin, url: "https://www.linkedin.com" },
+    { id: 2, name: "instagram", src: instagram, url: "https://www.instagram.com/saaroo.z/" },
+    { id: 3, name: "github", src: github, url: "https://github.com/sarox23" },
+    { id: 4, name: "curriculum", src: cv, url: "f" },
 ];
 const telefono = "+54 9 2604597616";
 </script>

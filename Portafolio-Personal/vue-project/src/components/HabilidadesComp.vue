@@ -9,10 +9,10 @@ import { ref } from 'vue';
 const habilidades = ref([
     {
         id: 1, nombre: 'Lenguajes de Programación', habilidades: [
-            { id: 1, nombre: 'JavaScript', nivel: 'Basico', icono: img1 },
-            { id: 2, nombre: 'Python', nivel: 'Intermedio', icono: img2 },
-            { id: 3, nombre: 'HTML/CSS', nivel: 'Basico', icono: img3 },
-            { id: 4, nombre: 'Java', nivel: 'Basico', icono: img4 },
+            { id: 1, nombre: 'JavaScript', nivel: 'Basico', icono: js },
+            { id: 2, nombre: 'Python', nivel: 'Intermedio', icono: python },
+            { id: 3, nombre: 'HTML/CSS', nivel: 'Basico', icono: html },
+            { id: 4, nombre: 'Java', nivel: 'Basico', icono: java },
         ]
     },
 

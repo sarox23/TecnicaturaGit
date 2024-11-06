@@ -3,8 +3,8 @@ import icon1 from '/src/assets/ventas.svg';
 
 
 import { ref } from 'vue';
-const titulo = 'Desarrollador Full Stack';
-const fecha = 'Desde Enero 2022 / Julio 2024';
+const titulo = 'En progreso';
+const fecha = '';
 const experiencias = ref([
     { id: 1, src: icon1, parrafo: 'Sin experiencia previa.' },
 ]);
